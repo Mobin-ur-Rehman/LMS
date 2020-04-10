@@ -15,8 +15,11 @@ h1, h2, h3, h4, h5, h6 {
 p{
     color: rgba(3, 29, 68, 0.685) !important;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
+}
+a{
+    text-align: center;
 }
 
 a:hover{
@@ -87,6 +90,7 @@ a:hover{
 }
 
 .menu-right-btn{
+    padding: 5px 25px;
     border-radius: 0;
     top: 0;
     bottom: 0;
@@ -225,7 +229,74 @@ a:hover{
     border: 2px solid #fed549 !important;
     background: transparent !important;
 }
+/* other pages cover */
 
+
+.child-site-content{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.8)
+        ), url('assests/child-main.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/* .cover-image{
+    background-image: url('assests/man.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+} */
+
+.child-site-title, .child-site-desc{
+    color: rgb(255, 255, 255) !important;
+    font-family: rightoues;
+}
+
+.child-site-title{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.child-site-desc{
+    margin-bottom: 10%;
+    
+}
+
+.child-site-btn1, .child-site-btn2{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    transition: linear;
+}
+
+.child-site-btn1{
+    color: #fed549;
+    border: 2px solid #fed549 !important;
+    background: transparent;
+    border-radius: 0%;
+}
+.child-site-btn1:hover{
+    background: #fed549 !important;
+    color: #031D44;
+    transition: all 300ms ;
+}
+
+.child-site-btn2{
+    background: #fed549 !important;
+    color: #031D44 !important;
+    border-radius: 0%;
+    border: 2px solid #fed549 !important;
+}
+.child-site-btn2:hover{
+    transition: all 300ms ;
+    color: #fed549 !important;
+    border: 2px solid #fed549 !important;
+    background: transparent !important;
+}
+
+
+/* other pages cover */
 #self-intro-section{
     padding: 40px 0;
     background: #eff5fd;
@@ -335,7 +406,7 @@ a:hover{
     bottom: 0;
     font-size: 14px;
     transition: all 300ms ease-in;
-    margin-left: auto;
+    /* margin-left: auto; */
     color: #031D44 !important;
     border:  2px solid #fed549 !important;
     background: #fed549;
@@ -457,6 +528,14 @@ a:hover{
     border-radius: px;
     border: none;
 }
+
+
+
+#lectures-section{
+    padding: 70px 0;
+}
+
+
 /* ----------------------------------------------------------------------- */
 
 
@@ -509,7 +588,7 @@ a:hover{
    right: 1rem;
    border-radius: 30px;
    width: 10%;
-   height: 14%; 
+   height: 12%; 
    transition: all 300ms ease-in;
    margin-left: auto;
    color: #031D44 !important;
